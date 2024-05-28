@@ -96,7 +96,7 @@ function App() {
   }
 
   const handleConnect = () => {
-    const host = "broker.address.com";
+    const host = "wss://broker.address.com:8083";
     const options = {
       clientId: "emqx_react_" + Math.random().toString(16).substring(2, 8),
       username: "react_username",
